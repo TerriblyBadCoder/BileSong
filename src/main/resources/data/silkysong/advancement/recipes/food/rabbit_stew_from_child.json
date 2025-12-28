@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_child": {
+      "conditions": {
+        "items": [
+          {
+            "items": "silkysong:tadpole"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_child"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "silkysong:rabbit_stew_from_brown_mushroom_and_child",
+      "silkysong:rabbit_stew_from_red_mushroom_and_child"
+    ]
+  }
+}

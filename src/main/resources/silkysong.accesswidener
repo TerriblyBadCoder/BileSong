@@ -1,0 +1,9 @@
+accessWidener v2 named
+accessible class net/minecraft/entity/mob/SlimeEntity$SwimmingGoal
+accessible class net/minecraft/entity/mob/SlimeEntity$FaceTowardTargetGoal
+accessible class net/minecraft/entity/mob/SlimeEntity$RandomLookGoal
+accessible class net/minecraft/entity/mob/SlimeEntity$MoveGoal
+accessible field net/minecraft/entity/LivingEntity movementSpeed F
+accessible field net/minecraft/entity/mob/SlimeEntity onGroundLastTick Z
+accessible field net/minecraft/client/gl/GlCommandEncoder backend Lnet/minecraft/client/gl/GlBackend;
+accessible method net/minecraft/client/gui/DrawContext drawTexturedQuad (Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/util/Identifier;IIIIFFFFI)V

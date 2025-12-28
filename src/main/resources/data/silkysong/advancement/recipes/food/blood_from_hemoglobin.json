@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "silkysong:hemoglobin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_blood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "silkyong:iron_nugget_from_blasting_hemoglobin",
+      "silkyong:iron_nugget_from_smelting_hemoglobin",
+      "silkysong:blood_arrow_craft",
+      "silkysong:decoagulator_craft"
+    ]
+  }
+}

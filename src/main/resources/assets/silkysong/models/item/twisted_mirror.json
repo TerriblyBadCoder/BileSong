@@ -1,0 +1,9 @@
+
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "silkysong:item/twisted_mirror_glass",
+    "layer1": "silkysong:item/twisted_mirror",
+    "layer2": "silkysong:item/twisted_mirror_shard"
+  }
+}

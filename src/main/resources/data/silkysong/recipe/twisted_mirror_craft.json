@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:gold_ingot",
+    "G": "minecraft:glass",
+    "Z": "silkysong:living_twig"
+  },
+  "pattern": [
+    "##",
+    "GZ",
+    "Z "
+  ],
+  "result": {
+    "count": 1,
+    "id": "silkysong:amadunno_sword"
+  }
+}

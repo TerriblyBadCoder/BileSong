@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_silk": {
+      "conditions": {
+        "items": [
+          {
+            "items": "silkysong:silk_thread"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_silk"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "silkysong:silk_craft",
+      "silkysong:silken_cloak_craft"
+    ]
+  }
+}

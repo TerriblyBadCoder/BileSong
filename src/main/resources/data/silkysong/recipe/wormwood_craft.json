@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Z": "silkysong:living_twig"
+  },
+  "pattern": [
+    "ZZ",
+    "ZZ"
+  ],
+  "result": {
+    "count": 1,
+    "id": "silkysong:wormwood"
+  }
+}

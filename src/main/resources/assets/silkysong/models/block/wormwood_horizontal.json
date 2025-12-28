@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "silkysong:block/wormwood_top",
+    "side": "silkysong:block/wormwood_side"
+  }
+}

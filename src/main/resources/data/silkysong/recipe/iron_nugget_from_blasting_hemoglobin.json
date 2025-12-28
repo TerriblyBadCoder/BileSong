@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 60,
+  "experience": 0.7,
+  "group": "iron_nugget",
+  "ingredient": "silkysong:hemoglobin",
+  "result": {
+    "count": 2,
+    "id": "minecraft:iron_nugget"
+  }
+}

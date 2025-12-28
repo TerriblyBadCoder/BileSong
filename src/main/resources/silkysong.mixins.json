@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.atired.silkysong.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "HostileEntityStringMixin",
+    "PlayerEntityMixin"
+  ],
+  "client": [
+    "DrawContextMixin",
+    "GlobClientPlayerEntityMixin",
+    "LivingEntityRendererMixin",
+    "LivingEntityRenderStateMixin",
+    "PostEffectProcessorMixin",
+    "RenderSystemMixin",
+    "SKgameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

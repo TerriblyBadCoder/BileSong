@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 120,
+  "experience": 0.7,
+  "group": "iron_nugget",
+  "ingredient": "silkysong:hemoglobin",
+  "result": {
+    "count": 2,
+    "id": "minecraft:iron_nugget"
+  }
+}

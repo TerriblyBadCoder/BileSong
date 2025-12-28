@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_twig": {
+      "conditions": {
+        "items": [
+          {
+            "items": "silkysong:living_twig"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_twig"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "silkysong:amadunno_sword_craft",
+      "silkysong:twisted_mirror_craft",
+      "silkysong:wormwood_craft",
+      "silkysong:stick_from_living_twig_craft"
+    ]
+  }
+}

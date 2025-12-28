@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "silkysong:silk",
+    "Z": "silkysong:silk_thread"
+  },
+  "pattern": [
+    "X X",
+    "ZXZ",
+    "ZXZ"
+  ],
+  "result": {
+    "count": 1,
+    "id": "silkysong:silken_mantle"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "silkysong:item/twisted_mirror",
+    "tints": [
+      {
+        "type": "minecraft:potion",
+        "default": 16777215
+      }
+    ]
+  }
+}

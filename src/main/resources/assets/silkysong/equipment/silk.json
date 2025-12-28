@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "silkysong:silk"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "silkysong:silk"
+      }
+    ]
+  }
+}

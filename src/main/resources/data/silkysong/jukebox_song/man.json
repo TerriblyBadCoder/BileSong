@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "jukebox_song.silkysong.man"
+  },
+  "length_in_seconds": 55.0,
+  "sound_event": "silkysong:music_disc.man"
+}

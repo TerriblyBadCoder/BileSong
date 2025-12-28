@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ 0, -90, 55 ],
+      "translation": [ 0, 1.0, 0.5 ],
+      "scale": [ 0.45, 0.45, 0.45 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 0, 90, -55 ],
+      "translation": [ 0, 1.0, 0.5 ],
+      "scale": [ 0.45, 0.45, 0.45 ]
+    }
+  },
+  "textures": {
+    "layer0": "silkysong:item/slime_cannon_ball"
+  }
+}

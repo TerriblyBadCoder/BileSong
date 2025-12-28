@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "silkysong:silk_thread",
+    "silkysong:silk_thread",
+    "silkysong:silk_thread"
+    ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:string"
+  }
+}

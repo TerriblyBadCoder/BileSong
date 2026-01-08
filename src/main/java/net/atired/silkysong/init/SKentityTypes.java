@@ -14,6 +14,7 @@ import net.minecraft.registry.RegistryKeys;
 public class SKentityTypes {
     public static final EntityType<TrashCubeEntity> TRASHCUBE = EntityType.Builder.<TrashCubeEntity>create(TrashCubeEntity::new, SpawnGroup.MISC).dimensions(2f, 2f).build(RegistryKey.of(RegistryKeys.ENTITY_TYPE, SilkySong.id("trash_cube")));
     public static final EntityType<IcosphereEntity> ICOSPHERE = EntityType.Builder.<IcosphereEntity>create(IcosphereEntity::new, SpawnGroup.MISC).dimensions(0.3f, 0.3f).build(RegistryKey.of(RegistryKeys.ENTITY_TYPE, SilkySong.id("icosphere")));
+    public static final EntityType<BounceSplashPotionEntity> BOUNCING_POTION = EntityType.Builder.<BounceSplashPotionEntity>create(BounceSplashPotionEntity::new, SpawnGroup.MISC).dimensions(0.3f, 0.3f).build(RegistryKey.of(RegistryKeys.ENTITY_TYPE, SilkySong.id("bouncing_potion")));
     public static final EntityType<DecoagulatorEntity> DECOAGULATOR = EntityType.Builder.<DecoagulatorEntity>create(DecoagulatorEntity::new, SpawnGroup.MISC).dimensions(0.3f, 0.3f).build(RegistryKey.of(RegistryKeys.ENTITY_TYPE, SilkySong.id("decoagulator")));
     public static final EntityType<SigilEntity> SIGIL = EntityType.Builder.<SigilEntity>create(SigilEntity::new, SpawnGroup.MISC).dimensions(0.3f, 0.3f).build(RegistryKey.of(RegistryKeys.ENTITY_TYPE, SilkySong.id("sigil")));
     public static final EntityType<BloodArrowEntity> BLOOD_ARROW = EntityType.Builder.<BloodArrowEntity>create(BloodArrowEntity::new, SpawnGroup.MISC).dimensions(EntityType.ARROW.getWidth(),EntityType.ARROW.getHeight()).build(RegistryKey.of(RegistryKeys.ENTITY_TYPE, SilkySong.id("blood_arrow")));
@@ -34,6 +35,7 @@ public class SKentityTypes {
         Registry.register(Registries.ENTITY_TYPE, SilkySong.id("blood_arrow"), BLOOD_ARROW);
         Registry.register(Registries.ENTITY_TYPE, SilkySong.id("sigil"), SIGIL);
         Registry.register(Registries.ENTITY_TYPE, SilkySong.id("icosphere"), ICOSPHERE);
+        Registry.register(Registries.ENTITY_TYPE, SilkySong.id("bouncing_potion"), BOUNCING_POTION);
         Registry.register(Registries.ENTITY_TYPE, SilkySong.id("decoagulator"), DECOAGULATOR);
         Registry.register(Registries.ENTITY_TYPE, SilkySong.id("jumpscarer"), JUMPSCARER);
         FabricDefaultAttributeRegistry.register(JUMPSCARER,JumpscarerEntity.createJumpscarerAttributes());

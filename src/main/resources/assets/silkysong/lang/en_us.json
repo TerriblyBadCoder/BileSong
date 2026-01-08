@@ -19,7 +19,9 @@
   "item.silkysong.blood_arrow": "Blood Arrow",
   "item.silkysong.living_twig": "Living Twig",
   "item.silkysong.trash_cube": "Trash Cube",
+  "item.silkysong.hemoglobin_block": "Hemoglobin Pipe",
   "item.silkysong.silk": "Silk Block",
+  "item.silkysong.bouncing_potion": "Bouncing Potion of ",
   "item.silkysong.wormwood": "Wormwood Block",
   "item.silkysong.silk_thread": "Silk",
   "item.silkysong.hemoglobin": "Hemoglobin",
@@ -45,5 +47,6 @@
   "jukebox_song.silkysong.man": "Toby Fox - man.ogg",
   "block.silkysong.wormwood": "Wormwood Block",
   "block.silkysong.silk": "Silk Block",
-  "block.silkysong.trash_cube": "Trash Cube"
+  "block.silkysong.trash_cube": "Trash Cube",
+  "block.silkysong.hemoglobin_block": "Hemoglobin Pipe"
 }

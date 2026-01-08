@@ -59,13 +59,13 @@ public class SKItems {
     public static final Item HEMOGOBLIN_EGG = register("hemogoblin_spawn_egg", (item)->{return new SpawnEggItem(SKentityTypes.HEMOGOBLIN,item);},new Item.Settings());
     public static final Item HEMOGLOBULE_EGG = register("hemoglobule_spawn_egg", (item)->{return new SpawnEggItem(SKentityTypes.HEMOGLOBULE,item);},new Item.Settings());
     public static final Item TADPOLE = register("tadpole", CurledChildItem::new,new Item.Settings());
+    public static final Item BOUNCING_POTION = register("bouncing_potion", BouncingPotionItem::new,new Item.Settings().maxCount(1).component(DataComponentTypes.POTION_CONTENTS, PotionContentsComponent.DEFAULT).component(DataComponentTypes.POTION_DURATION_SCALE, 0.25F));
     public static final Item MUSIC_DISC_MAN = register(
             "music_disc_man", Item::new, new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(MAN)
     );
     public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
         RegistryKey<Item> itemKey = RegistryKey.of(RegistryKeys.ITEM, SilkySong.id(name));
         Item item = itemFactory.apply(settings.registryKey(itemKey));
-
         Registry.register(Registries.ITEM, itemKey, item);
         return item;
     }

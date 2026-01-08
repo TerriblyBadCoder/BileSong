@@ -1,0 +1,30 @@
+{   "parent": "block/block",
+  "textures": {
+    "particle": "silkysong:block/hemoglobin_block",
+    "texture": "silkysong:block/hemoglobin_block"
+  },
+  "elements": [
+    {   "from": [ 2, 2, 2 ],
+      "to": [ 14, 14, 14 ],
+      "faces": {
+        "down":  { "uv": [ 2, 2, 14, 14 ], "texture": "#texture", "tintindex": 0 },
+        "up":    { "uv": [ 2, 2, 14, 14 ], "texture": "#texture", "tintindex": 0 },
+        "north": { "uv": [ 2, 2, 14, 14 ], "texture": "#texture", "tintindex": 0 },
+        "south": { "uv": [ 2, 2, 14, 14 ], "texture": "#texture", "tintindex": 0 },
+        "west":  { "uv": [ 2, 2, 14, 14 ], "texture": "#texture", "tintindex": 0 },
+        "east":  { "uv": [ 2, 2, 14, 14 ], "texture": "#texture", "tintindex": 0 }
+      }
+    },
+    {   "from": [ -3, -3, -3 ],
+      "to": [ 19,19,19 ],
+      "faces": {
+        "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "down", "tintindex": 0 },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "up", "tintindex": 0 },
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "north", "tintindex": 0 },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "south", "tintindex": 0 },
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "west", "tintindex": 0 },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "east", "tintindex": 0 }
+      }
+    }
+  ]
+}

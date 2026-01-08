@@ -15,11 +15,11 @@ import org.spongepowered.asm.mixin.injection.At;
 public class PostEffectProcessorMixin {
     @WrapOperation(method = "parsePass",at= @At(value = "INVOKE", target = "Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;withUniform(Ljava/lang/String;Lnet/minecraft/client/gl/UniformType;)Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;",ordinal =0))
     private static RenderPipeline.Builder test(RenderPipeline.Builder instance, String name, UniformType type, Operation<RenderPipeline.Builder> original, TextureManager textureManager, PostEffectPipeline.Pass pass, Identifier id){
-        for (PostEffectPipeline.Input input : pass.inputs()){
-            System.out.println(input.samplerName());
-        }
+//        for (PostEffectPipeline.Input input : pass.inputs()){
+//            System.out.println(input.samplerName());
+//        }
         instance=instance.withUniform("DynamicTESTUniforms",UniformType.UNIFORM_BUFFER);
-        instance=instance.withSampler("Sampler0");
+
         return original.call(instance,name,type);
     }
 }

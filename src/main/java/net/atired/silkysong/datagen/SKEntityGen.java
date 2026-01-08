@@ -37,7 +37,7 @@ public class SKEntityGen {
         BiomeModifications.addSpawn(BiomeSelectors.tag(BiomeTags.IS_OVERWORLD), SpawnGroup.MONSTER, SKentityTypes.HEMOGOBLIN,10,1,1);
         SpawnRestriction.register(SKentityTypes.HEMOGOBLIN, SpawnLocationTypes.ON_GROUND, Heightmap.Type.MOTION_BLOCKING, HostileEntity::canSpawnInDark);
 
-        BiomeModifications.addSpawn(BiomeSelectors.tag(BiomeTags.IS_OVERWORLD), SpawnGroup.MONSTER, SKentityTypes.BILEMOSQO,3,4,7);
+        BiomeModifications.addSpawn(BiomeSelectors.tag(BiomeTags.IS_OVERWORLD), SpawnGroup.MONSTER, SKentityTypes.BILEMOSQO,5,4,7);
         SpawnRestriction.register(SKentityTypes.BILEMOSQO, SpawnLocationTypes.UNRESTRICTED, Heightmap.Type.MOTION_BLOCKING, BileMosqoEntity::canMosqoSpawnInDark);
 
         BiomeModifications.addSpawn(BiomeSelectors.tag(BiomeTags.IS_OVERWORLD), SpawnGroup.CREATURE, SKentityTypes.MISSILETOAD,3,4,7);

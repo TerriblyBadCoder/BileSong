@@ -43,7 +43,7 @@ public class SKItems {
 
     public static final Item SLIMECANNONBALL = register("slime_cannon_ball", SlimeCannonBallItem::new,new Item.Settings().maxCount(16));
     public static final Item AMADUNNO = register("amadunno_sword", AmadunnoSwordItem::new,new Item.Settings().component(DataComponentTypes.ATTRIBUTE_MODIFIERS, AttributeModifiersComponent.builder().add(EntityAttributes.ENTITY_INTERACTION_RANGE,new EntityAttributeModifier(SilkySong.id("range"),0.5, EntityAttributeModifier.Operation.ADD_MULTIPLIED_BASE), AttributeModifierSlot.MAINHAND).build())
-            .sword(ToolMaterial.GOLD,3.5F, -2.3F).component(DataComponentTypes.UNBREAKABLE, Unit.INSTANCE).component(SKcomponents.PARRY_TIME,50));
+            .sword(ToolMaterial.GOLD,2.5F, -2.3F).component(DataComponentTypes.UNBREAKABLE, Unit.INSTANCE).component(SKcomponents.PARRY_TIME,50));
     public static final Item TWISTED_MIRROR = register("twisted_mirror", TwistedMirrorItem::new,new Item.Settings().component(DataComponentTypes.POTION_CONTENTS, PotionContentsComponent.DEFAULT).maxCount(1));
     public static final Item LIVING_TWIG = register("living_twig", Item::new,new Item.Settings());
     public static final Item SILK = register("silk_thread", Item::new,new Item.Settings());

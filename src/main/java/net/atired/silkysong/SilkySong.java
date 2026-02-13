@@ -41,6 +41,7 @@ public class SilkySong implements ModInitializer {
         FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
             builder.registerItemRecipe(Items.POTION,SKItems.HEMOGLOBIN,SKItems.BOUNCING_POTION);
         });
+        SKitemGroupInit.init();
         itemGroups();
         PayloadTypeRegistry.playS2C().register(ParryPayload.ID, ParryPayload.CODEC);
         PayloadTypeRegistry.playS2C().register(MissiletoadPayload.ID, MissiletoadPayload.CODEC);

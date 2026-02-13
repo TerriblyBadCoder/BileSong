@@ -31,16 +31,16 @@ public class SKEntityGen {
         SpawnRestriction.register(SKentityTypes.JUMPSCARER, SpawnLocationTypes.UNRESTRICTED, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, JumpscarerEntity::canMythSpawnInDark);
 
 
-        BiomeModifications.addSpawn(BiomeSelectors.tag(BiomeTags.IS_OVERWORLD), SpawnGroup.MONSTER, SKentityTypes.HEMOGLOBULE,10,1,1);
+        BiomeModifications.addSpawn(BiomeSelectors.foundInOverworld().and(BiomeSelectors.tag(BiomeTags.WITHOUT_PATROL_SPAWNS).negate()), SpawnGroup.MONSTER, SKentityTypes.HEMOGLOBULE,10,1,1);
         SpawnRestriction.register(SKentityTypes.HEMOGLOBULE, SpawnLocationTypes.ON_GROUND, Heightmap.Type.MOTION_BLOCKING, HemoGlobuleEntity::canSpawnInDark);
 
-        BiomeModifications.addSpawn(BiomeSelectors.tag(BiomeTags.IS_OVERWORLD), SpawnGroup.MONSTER, SKentityTypes.HEMOGOBLIN,10,1,1);
+        BiomeModifications.addSpawn(BiomeSelectors.foundInOverworld().and(BiomeSelectors.tag(BiomeTags.WITHOUT_PATROL_SPAWNS).negate()), SpawnGroup.MONSTER, SKentityTypes.HEMOGOBLIN,10,1,1);
         SpawnRestriction.register(SKentityTypes.HEMOGOBLIN, SpawnLocationTypes.ON_GROUND, Heightmap.Type.MOTION_BLOCKING, HostileEntity::canSpawnInDark);
 
-        BiomeModifications.addSpawn(BiomeSelectors.tag(BiomeTags.IS_OVERWORLD), SpawnGroup.MONSTER, SKentityTypes.BILEMOSQO,5,4,7);
+        BiomeModifications.addSpawn(BiomeSelectors.tag(BiomeTags.SWAMP_HUT_HAS_STRUCTURE), SpawnGroup.MONSTER, SKentityTypes.BILEMOSQO,20,4,7);
         SpawnRestriction.register(SKentityTypes.BILEMOSQO, SpawnLocationTypes.UNRESTRICTED, Heightmap.Type.MOTION_BLOCKING, BileMosqoEntity::canMosqoSpawnInDark);
 
-        BiomeModifications.addSpawn(BiomeSelectors.tag(BiomeTags.IS_OVERWORLD), SpawnGroup.CREATURE, SKentityTypes.MISSILETOAD,3,4,7);
+        BiomeModifications.addSpawn(BiomeSelectors.tag(BiomeTags.SWAMP_HUT_HAS_STRUCTURE), SpawnGroup.CREATURE, SKentityTypes.MISSILETOAD,3,2,4);
         SpawnRestriction.register(SKentityTypes.MISSILETOAD, SpawnLocationTypes.UNRESTRICTED, Heightmap.Type.MOTION_BLOCKING, MobEntity::canMobSpawn);
 
     }

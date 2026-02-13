@@ -10,9 +10,10 @@
   "entity.silkysong.hemoglobule": "Hemoglobule",
   "entity.silkysong.missiletoad": "Missiletoad",
   "entity.silkysong.jumpscarer": "Myth",
+  "itemgroup.silkysong.silkysong_items": "BileSong",
   "enchantment.silkysong.heartstrings": "Heartstrings",
 
-  "enchantment.silkysong.heartstrings.description": "Dealing damage applies strings to enemies, parrying enemies with strings gives you block time. Block time over 100 increases damage dealt.",
+  "enchantment.silkysong.heartstrings.desc": "Dealing damage applies strings to enemies, parrying enemies with strings gives you block time. Block time over 100 increases damage dealt.",
   "effect.silkysong.hemorage": "Hemo Rage",
   "item.silkysong.slime_cannon_ball": "Slime(Cannon)ball",
   "item.silkysong.amadunno_sword": "Amadunno Sword",

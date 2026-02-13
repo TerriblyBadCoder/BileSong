@@ -17,13 +17,15 @@ import net.minecraft.client.render.block.entity.EndPortalBlockEntityRenderer;
 import net.minecraft.client.render.entity.EntityRenderer;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.entity.projectile.thrown.EnderPearlEntity;
 import net.minecraft.item.ItemDisplayContext;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
 
 import java.util.List;
 
-public class AbstractIcosphereEntityRenderer<T extends IcosphereEntity, S extends IcosphereEntityRenderState> extends EntityRenderer<IcosphereEntity, IcosphereEntityRenderState> {
+public class
+AbstractIcosphereEntityRenderer<T extends IcosphereEntity, S extends IcosphereEntityRenderState> extends EntityRenderer<IcosphereEntity, IcosphereEntityRenderState> {
     private final ItemModelManager itemModelManager;
     public AbstractIcosphereEntityRenderer(EntityRendererFactory.Context context) {
         super(context);

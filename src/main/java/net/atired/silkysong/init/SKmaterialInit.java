@@ -17,7 +17,7 @@ import java.util.Map;
 public class SKmaterialInit {
     public static RegistryKey<EquipmentAsset> SILK_ASSET = register("silk");
     public static ArmorMaterial SILK = new ArmorMaterial(
-            7, createDefenseMap(0, 0, -2, 0, 0), 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, ItemTags.REPAIRS_NETHERITE_ARMOR, SILK_ASSET
+            7, createDefenseMap(0, 0, -2, 0, 0), 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F,SKtagInit.SILK_TAG, SILK_ASSET
     );
 
     static RegistryKey<EquipmentAsset> register(String name) {

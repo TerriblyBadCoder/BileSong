@@ -7,8 +7,8 @@
   },
   "pattern": [
     "X X",
-    "ZXZ",
-    "ZXZ"
+    "XZX",
+    "ZZZ"
   ],
   "result": {
     "count": 1,
